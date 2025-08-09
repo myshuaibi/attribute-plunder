@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "attribute_plunder:blocks/ominous_sword",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "attribute_plunder:ominous_sword"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/crop",
+  "textures": {
+    "crop": "attribute_plunder:block/ominous_sword",
+    "particle": "attribute_plunder:block/ominous_sword"
+  },
+  "render_type": "cutout"
+}

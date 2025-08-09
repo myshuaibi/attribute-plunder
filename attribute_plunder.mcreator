@@ -1,22 +1,53 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "OminousSword",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ominous_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/org/myshuaibi/attributeplunder/block/OminousSwordBlock.java",
+          "src/main/resources/data/attribute_plunder/loot_table/blocks/ominous_sword.json",
+          "src/main/resources/assets/attribute_plunder/blockstates/ominous_sword.json",
+          "src/main/resources/assets/attribute_plunder/models/block/ominous_sword.json",
+          "src/main/resources/assets/attribute_plunder/models/item/ominous_sword.json"
+        ]
+      },
+      "path": "~/item-block"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.attribute_plunder.ominous_sword": "Ominous Sword"
+    }
   },
   "metadata": {
     "files": [
       "src/main/java/org/myshuaibi/attributeplunder/AttributePlunderMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/resources/META-INF/neoforge.mods.toml"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/org/myshuaibi/attributeplunder/init/AttributePlunderModBlocks.java",
+      "src/main/java/org/myshuaibi/attributeplunder/init/AttributePlunderModItems.java"
     ]
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "item-block",
+        "children": []
+      },
+      {
+        "name": "recipe",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "attribute_plunder",

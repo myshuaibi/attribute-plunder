@@ -1,5 +1,8 @@
 package org.myshuaibi.attributeplunder;
 
+import org.myshuaibi.attributeplunder.init.AttributePlunderModItems;
+import org.myshuaibi.attributeplunder.init.AttributePlunderModBlocks;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -35,6 +38,10 @@ public class AttributePlunderMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+
+		AttributePlunderModBlocks.REGISTRY.register(modEventBus);
+
+		AttributePlunderModItems.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
