@@ -1,0 +1,39 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/org/myshuaibi/attributeplunder/AttributePlunderMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "attribute_plunder",
+    "modName": "Attribute Plunder",
+    "version": "1.0.0",
+    "description": "一个轻量级Minecraft Mod，使你可以通过某些方式来增加你的属性，以丰富你的游戏体验",
+    "author": "myshuaibi",
+    "websiteURL": "https://myshuaibi.dpdns.org/",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "org.myshuaibi.attributeplunder"
+  },
+  "mcreatorVersion": 202500228610
+}

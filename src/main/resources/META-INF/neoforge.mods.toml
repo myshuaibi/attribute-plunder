@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT License"
+
+[[mods]]
+modId="attribute_plunder"
+version="1.0.0"
+displayName="Attribute Plunder"
+displayURL="https://myshuaibi.dpdns.org/"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="myshuaibi"
+description="\u4E00\u4E2A\u8F7B\u91CF\u7EA7Minecraft Mod\uFF0C\u4F7F\u4F60\u53EF\u4EE5\u901A\u8FC7\u67D0\u4E9B\u65B9\u5F0F\u6765\u589E\u52A0\u4F60\u7684\u5C5E\u6027\uFF0C\u4EE5\u4E30\u5BCC\u4F60\u7684\u6E38\u620F\u4F53\u9A8C"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.attribute_plunder]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.176,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.attribute_plunder]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
