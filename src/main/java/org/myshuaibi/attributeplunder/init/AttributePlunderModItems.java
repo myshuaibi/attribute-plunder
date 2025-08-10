@@ -15,7 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 public class AttributePlunderModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(AttributePlunderMod.MODID);
-	public static final DeferredItem<Item> OMINOUS_SWORD = block(AttributePlunderModBlocks.OMINOUS_SWORD);
+	public static final DeferredItem<Item> OMINOUS_SWORD = block(AttributePlunderModBlocks.OMINOUS_SWORD, new Item.Properties().stacksTo(1));
 
 	// Start of user code block custom items
 	// End of user code block custom items

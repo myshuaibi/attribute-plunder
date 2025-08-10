@@ -4,12 +4,12 @@
   "definition": {
     "texture": "ominous_sword",
     "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 13,
-    "customModelName": "Crop model",
+    "textureLeft": "air",
+    "textureFront": "air",
+    "textureRight": "air",
+    "textureBack": "air",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -17,12 +17,13 @@
     "animations": [],
     "itemTexture": "",
     "particleTexture": "",
-    "blockSetType": "OAK",
+    "blockBase": "PressurePlate",
+    "blockSetType": "IRON",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -43,12 +44,16 @@
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "hasBlockItem": true,
-    "maxStackSize": 64,
+    "maxStackSize": 1,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
     "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
@@ -67,7 +72,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "AIR",
     "noteBlockInstrument": "harp",
     "creativePickItem": {
       "value": ""
@@ -83,24 +88,24 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "EMPTY"
     },
     "breakSound": {
-      "value": ""
+      "value": "block.composter.empty"
     },
     "fallSound": {
-      "value": ""
+      "value": "block.composter.empty"
     },
     "hitSound": {
-      "value": ""
+      "value": "block.composter.empty"
     },
     "placeSound": {
-      "value": ""
+      "value": "block.composter.empty"
     },
     "stepSound": {
-      "value": ""
+      "value": "block.composter.empty"
     },
     "luminance": 0,
     "unbreakable": false,

@@ -1,5 +1,5 @@
 {
-  "parent": "block/pressure_plate_up",
+  "parent": "block/pressure_plate_down",
   "textures": {
     "particle": "attribute_plunder:block/ominous_sword",
     "texture": "attribute_plunder:block/ominous_sword"

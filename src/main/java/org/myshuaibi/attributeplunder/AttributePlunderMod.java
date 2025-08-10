@@ -1,5 +1,6 @@
 package org.myshuaibi.attributeplunder;
 
+import org.myshuaibi.attributeplunder.init.AttributePlunderModTabs;
 import org.myshuaibi.attributeplunder.init.AttributePlunderModItems;
 import org.myshuaibi.attributeplunder.init.AttributePlunderModBlocks;
 
@@ -42,6 +43,8 @@ public class AttributePlunderMod {
 		AttributePlunderModBlocks.REGISTRY.register(modEventBus);
 
 		AttributePlunderModItems.REGISTRY.register(modEventBus);
+
+		AttributePlunderModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
