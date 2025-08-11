@@ -1,10 +1,7 @@
 {
   "variants": {
-    "powered=false": {
+    "": {
       "model": "attribute_plunder:block/ominous_sword"
-    },
-    "powered=true": {
-      "model": "attribute_plunder:block/ominous_sword_down"
     }
   }
 }

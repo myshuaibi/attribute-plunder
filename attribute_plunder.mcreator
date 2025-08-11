@@ -10,7 +10,6 @@
         "files": [
           "src/main/java/org/myshuaibi/attributeplunder/block/OminousSwordBlock.java",
           "src/main/resources/data/attribute_plunder/loot_table/blocks/ominous_sword.json",
-          "src/main/resources/assets/attribute_plunder/models/block/ominous_sword_down.json",
           "src/main/resources/assets/attribute_plunder/blockstates/ominous_sword.json",
           "src/main/resources/assets/attribute_plunder/models/block/ominous_sword.json",
           "src/main/resources/assets/attribute_plunder/models/item/ominous_sword.json"

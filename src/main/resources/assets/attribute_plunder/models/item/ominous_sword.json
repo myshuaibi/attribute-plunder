@@ -1,3 +1,7 @@
 {
-  "parent": "attribute_plunder:block/ominous_sword"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "attribute_plunder:item/ominous_sword"
+  },
+  "render_type": "translucent"
 }

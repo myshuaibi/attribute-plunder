@@ -3,21 +3,20 @@
   "_type": "block",
   "definition": {
     "texture": "ominous_sword",
-    "textureTop": "",
+    "textureTop": "ominous_sword",
     "textureLeft": "air",
     "textureFront": "air",
     "textureRight": "air",
     "textureBack": "air",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "renderType": 2,
+    "customModelName": "ominous_sword:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "",
-    "particleTexture": "",
-    "blockBase": "PressurePlate",
+    "itemTexture": "ominous_sword",
+    "particleTexture": "ominous_sword",
     "blockSetType": "IRON",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -31,7 +30,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 16.0,
+        "My": 2.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -44,7 +43,7 @@
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "hasBlockItem": true,
     "maxStackSize": 1,
     "rarity": "COMMON",
@@ -87,25 +86,25 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": false,
-    "isCustomSoundType": true,
+    "isNotColidable": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "EMPTY"
+      "value": "STONE"
     },
     "breakSound": {
-      "value": "block.composter.empty"
+      "value": ""
     },
     "fallSound": {
-      "value": "block.composter.empty"
+      "value": ""
     },
     "hitSound": {
-      "value": "block.composter.empty"
+      "value": ""
     },
     "placeSound": {
-      "value": "block.composter.empty"
+      "value": ""
     },
     "stepSound": {
-      "value": "block.composter.empty"
+      "value": ""
     },
     "luminance": 0,
     "unbreakable": false,
