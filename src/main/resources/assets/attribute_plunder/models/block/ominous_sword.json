@@ -1,8 +1,9 @@
 {
-  "parent": "block/pressure_plate_up",
+  "parent": "attribute_plunder:custom/ominous_sword",
   "textures": {
+    "all": "attribute_plunder:block/ominous_sword",
     "particle": "attribute_plunder:block/ominous_sword",
-    "texture": "attribute_plunder:block/ominous_sword"
+    "0": "attribute_plunder:block/ominous_sword"
   },
   "render_type": "translucent"
 }

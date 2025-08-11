@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ominous_sword"
+      },
+      "name": "default"
+    }
+  }
+}
